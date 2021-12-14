@@ -1,4 +1,23 @@
 .projects__main__container {
-  /* width: 100vw; */
-  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+}
+.project {
+  border: 1px solid white;
+}
+.projects__holder {
+  margin: 0 40px;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto;
+}
+.project {
+  border: 1px solid white;
+  display: flex;
+}
+.project__image > img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
 }

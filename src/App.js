@@ -8,8 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <About />
-      {/* <Projects /> */}
-      {/* <div style={{ height: "100vh" }}></div> */}
+      <Projects />
       {/* <Particle /> */}
     </div>
   );
