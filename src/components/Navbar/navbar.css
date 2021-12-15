@@ -69,3 +69,6 @@
 .home:hover > div {
   opacity: 0;
 }
+.resume__icon {
+  padding-right: 20px;
+}

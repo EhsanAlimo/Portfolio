@@ -1,6 +1,7 @@
 .projects__main__container {
   width: 100vw;
   min-height: 100vh;
+  padding-top: 100px;
 }
 .project {
   border: 1px solid white;

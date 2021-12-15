@@ -1,34 +1,38 @@
 export const projectsData = [
   {
-    url: "https://covid-19-tracker-v2.vercel.app/",
-    name: "Covid-19",
-    image: "http://saeedet.com/images/portfolio/covid.jpg",
-    techs: "React js, Context API, Leaflet, ChartJS, Covid API integration",
+    url: "https://code-book.vercel.app/",
+    name: "Code Book",
+    image:
+      "https://www.linkpicture.com/q/Screen-Shot-2021-12-14-at-5.01.36-pm.png",
+    techs: "Next.js, Context API, Tailwind CSS, Firebase, prismjs, Material UI",
     description:
-      "A live data visualization app for covid-19 statistics worldwide. I fetched the data from disease.sh API endpoint. I used Leaflet for the map which was not so friendly to implement but integrated well at the end.",
+      "Cood book is a web application that I designed for my own needs. A user can log in to the application and save some blocks of codes that they would need later. code store is where all code snippets will be saved with a syntax highlighter for javascript. It is a simple CRUD system with add, delete and edit functionality.",
   },
   {
-    url: "https://dariye.vercel.app/",
-    name: "GhostBook",
-    image: "http://saeedet.com/images/portfolio/ghostbooknew.jpg",
+    url: "https://uniquee.vercel.app/",
+    name: "Uniquee",
+    image:
+      "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-2.47.51-pm.png",
     techs: "Next.js, Redux, Firebase, Material UI, Tailwind CSS",
     description:
-      "A simple social media platform where users can choose a character and share posts, upload images, add comments and reply to each other. Also, users can like each post as well as each other's comments and replys.",
+      "Uniquee is a live social media which allows users to upload their products' image and will be available for everyone with an account. features such as like, category and filtering all the products are outstanding points of this project. Evrytime a user login, he/she can see all the previous likes and do achieve this we used cloud fuctions on react which is connected to the firebase.",
   },
   {
-    url: "https://video-chat-app-xi.vercel.app/",
-    name: "VideoChat",
-    image: "http://saeedet.com/images/portfolio/video-chat.jpg",
-    techs: "React, Context API, Node, Express, Socket.io",
+    url: "https://guarded-dusk-14110.herokuapp.com/",
+    name: "Music Box",
+    image:
+      "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-3.25.28-pm.png",
+    techs: "Ruby on Rails, HTML5, CSS, Spotify API",
     description:
-      "A Peer to Peer video chat application as a result of a sweet experimentation with socket.io and simple-peer library. In this app I learned the ocean of possibilities of peer to peer connection between users with no centralized database in between.",
+      "It was my first full-stack project. This web app is built using Ruby version 2.7.4 and Rails version 5.2.6 and Spotify API. There is an admin authentication so that the user can add, edit and delete songs and playlists. Admin have access to the all users that have signed up to the app and also deleting a existing song. Users authentication and security with both front end and back end to get better understanding of the way they interact with each other.",
   },
   {
-    url: "https://job-tracker-tau.vercel.app/",
-    name: "JobTracker",
-    image: "http://saeedet.com/images/portfolio/jobTracker.jpg",
-    techs: "React.js, TrypeScript, LocalStorage",
+    url: "https://ehsanalimo.github.io/Tic-Tac-Toe/",
+    name: "Tic Tac Toe",
+    image:
+      "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-3.33.38-pm.png",
+    techs: "HTML5, CSS, Jquery",
     description:
-      "A simple but very handy app which I created while I was applying for jobs. I found it pretty confusing to keep track of the jobs you applied so I created an app where you can save jobs and other info as well as status integration with add, edit and delete functionality.",
+      "A simple Tic Tac Toe game which works pretty good and has no bug. I was so proud when I made it. There are two players, reset button, winning line will be highlighted, winner name will be displayed and number of winning hands will be count for each user.",
   },
 ];

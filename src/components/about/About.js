@@ -4,7 +4,7 @@ import Particle from "../Particle";
 
 import "./about.css";
 
-function About() {
+function About({ aboutRef }) {
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
@@ -13,7 +13,10 @@ function About() {
     }, 3000);
   }, []);
   return (
-    <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
+    <div
+      style={{ position: "relative", width: "100vw", height: "100vh" }}
+      ref={aboutRef}
+    >
       <div className="main">
         <div style={{ opacity: opacity }} className="image-div">
           <img

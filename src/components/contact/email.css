@@ -1,0 +1,15 @@
+.email__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.svg_icons {
+  transform: scale(1.8);
+  width: 40px;
+  height: 40px;
+}
