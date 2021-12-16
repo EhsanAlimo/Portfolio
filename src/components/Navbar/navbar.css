@@ -90,5 +90,11 @@
   }
   .navbar {
     height: 80px;
+    background-color: black;
+  }
+}
+@media (max-width: 750px) {
+  .navbar {
+    background-color: black;
   }
 }

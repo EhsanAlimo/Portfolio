@@ -25,14 +25,7 @@ function Email({ emailRef }) {
   };
 
   return (
-    <div
-      className="container border email__container"
-      ref={emailRef}
-      style={{
-        marginTop: "50px",
-        width: "50%",
-      }}
-    >
+    <div className="container border email__container" ref={emailRef}>
       <h1 style={{ marginTop: "25px" }}>Contact me</h1>
       <form
         className="row form__box"
