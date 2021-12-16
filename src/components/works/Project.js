@@ -4,7 +4,7 @@ import OutboundIcon from "@mui/icons-material/Outbound";
 import "animate.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-function Project({ url, name, image, techs, description }) {
+function Project({ url, name, image, techs, description, github }) {
   return (
     <div className="project">
       <div className="project__image">
@@ -31,7 +31,7 @@ function Project({ url, name, image, techs, description }) {
             />
           </a>
           <a
-            href={url}
+            href={github}
             target="_blank"
             rel="noopener noreferrer"
             className="githubLink"

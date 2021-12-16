@@ -15,6 +15,7 @@ function Projects({ projectsRef }) {
             image={project.image}
             techs={project.techs}
             description={project.description}
+            github={project.github}
           />
         ))}
       </div>
