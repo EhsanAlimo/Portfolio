@@ -28,7 +28,19 @@
 .headshot_about {
   border-radius: 9.5rem;
   width: 300px;
+  margin-bottom: 20px;
 }
 .image-div {
-  transition: 2000ms;
+  transition: 500ms;
+}
+
+@media (max-width: 500px) {
+  .headshot_about {
+    border-radius: 4.5rem;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .fists-sentence {
+    font-size: x-large;
+  }
 }

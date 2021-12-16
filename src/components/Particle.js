@@ -39,11 +39,11 @@ function Particle() {
             events: {
               onClick: {
                 enable: true,
-                mode: "push",
+                mode: "attract",
               },
               onHover: {
                 enable: true,
-                mode: "repulse",
+                mode: ["repulse", "bubble"],
               },
               resize: true,
             },
@@ -51,14 +51,11 @@ function Particle() {
               bubble: {
                 distance: 200,
                 duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
-              push: {
-                quantity: 4,
+                opacity: 0.5,
+                size: 13,
               },
               repulse: {
-                distance: 200,
+                distance: 120,
                 duration: 0.4,
               },
             },
@@ -75,7 +72,7 @@ function Particle() {
               width: 1,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               direction: "none",

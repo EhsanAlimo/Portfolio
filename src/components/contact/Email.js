@@ -31,15 +31,12 @@ function Email({ emailRef }) {
       style={{
         marginTop: "50px",
         width: "50%",
-
-        backgroundPosition: "center",
-        backgroundSize: "cover",
       }}
     >
-      <h1 style={{ marginTop: "25px" }}>Message Box</h1>
+      <h1 style={{ marginTop: "25px" }}>Contact me</h1>
       <form
-        className="row"
-        style={{ margin: "25px 85px 75px 100px" }}
+        className="row form__box"
+        // style={{ margin: "25px 85px 75px 100px" }}
         onSubmit={sendEmail}
       >
         <label>Name</label>
@@ -77,13 +74,13 @@ function Email({ emailRef }) {
       <footer>
         <div className="footer">
           <a href="https://github.com/EhsanAlimo" target="_blank">
-            <GitHubIcon style={{ width: "40px" }} />
+            <GitHubIcon style={{ fontSize: "50px" }} />
           </a>
           <a href="https://www.linkedin.com/in/ehsan-alimo/" target="_blank">
-            <LinkedInIcon style={{ width: "40px" }} />
+            <LinkedInIcon style={{ fontSize: "50px" }} />
           </a>
-          <p>© 2021 Ehsan Alimo</p>
         </div>
+        <p>© 2021 Ehsan Alimo</p>
       </footer>
     </div>
   );

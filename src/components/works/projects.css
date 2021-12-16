@@ -3,9 +3,6 @@
   min-height: 100vh;
   padding-top: 100px;
 }
-.project {
-  border: 1px solid white;
-}
 .projects__holder {
   margin: 0 40px;
   display: grid;
@@ -14,11 +11,121 @@
   grid-template-columns: auto auto;
 }
 .project {
-  border: 1px solid white;
+  border: 3px solid white;
+  border-radius: 2rem;
   display: flex;
+  background-color: black;
+  box-shadow: rgba(255, 255, 255, 0.288) 0px 4px 12px;
+}
+.project__image {
+  width: 320px;
+  height: 200px;
+  border-right: 1px solid white;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2rem;
+}
+.project__description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 20px;
 }
 .project__image > img {
   object-fit: contain;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+}
+.project__image:hover > img {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+.project__description__title {
+  font-weight: bold;
+  font-size: large;
+}
+.tech__label {
+  color: rgba(151, 140, 140, 0.568);
+  font-weight: bold;
+}
+.img__link__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: black;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.img__link__container:hover {
+  opacity: 0.2;
+}
+.img__link {
+  z-index: 8;
+  position: absolute;
+  color: whitesmoke;
+  opacity: 0.9;
+  bottom: 15%;
+  right: 15%;
+  font-size: larger;
+  transform: rotate(-45deg);
+}
+.project__description__link {
+  display: flex;
+  justify-content: space-between;
+}
+.project__description__link > a > .github__span {
+  font-size: small;
+  color: gray;
+}
+.link__span {
+  color: rgb(4, 4, 231);
+}
+.link__span:hover {
+  color: rgb(17, 17, 175);
+}
+.project__description__linkIcon {
+  margin-bottom: -5px;
+  margin-left: 5px;
+  color: blue;
+}
+
+.project__description__link:hover > a {
+  /* color: blue; */
+}
+.githubLink:hover {
+  text-decoration: none;
+}
+.githubLink:hover > span {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 1400px) {
+  .projects__holder {
+    margin: 0 40px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 750px) {
+  .project {
+    flex-direction: column;
+  }
+  .project__image {
+    width: 100%;
+  }
+  .link__span {
+    font-size: small;
+  }
+  .project__description > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

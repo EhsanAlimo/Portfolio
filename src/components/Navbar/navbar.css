@@ -1,17 +1,21 @@
 * {
   color: white;
-  background-color: black;
+  /* background-color: black; */
 }
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* border: purple 2px solid; */
+
   position: fixed;
   top: 0;
   width: 100vw;
   z-index: 1;
-  background-color: rgb(4, 4, 41);
+  /* background-color: rgb(4, 4, 41); */
+
   border-bottom: 2px solid rgb(178, 244, 247);
+}
+.navbar.active {
+  background-color: rgb(15, 12, 12);
 }
 
 .page-nav-container {
@@ -70,5 +74,21 @@
   opacity: 0;
 }
 .resume__icon {
-  padding-right: 20px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.download__icon {
+  margin-left: -25px;
+}
+
+@media (max-width: 650px) {
+  .headshot > img {
+    display: none;
+  }
+  .middle__icons {
+    flex: 1;
+  }
+  .navbar {
+    height: 80px;
+  }
 }

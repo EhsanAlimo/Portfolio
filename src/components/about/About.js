@@ -26,23 +26,30 @@ function About({ aboutRef }) {
           />
         </div>
 
-        <Typist>
+        <Typist avgTypingDelay={50} cursor={{ hideWhenDone: true }}>
           <p className="fists-sentence">
             {" "}
             Hello there! My name is Ehsan Alimo from Sydney
           </p>
-          <p className="second-sentence">
+          <p className="second-sentence ">
             A Full-Stack Web Developer who would love to make this world a
             better place to live for all living creatures. I have ...
           </p>
+
           <Typist.Backspace count={11} delay={200} />
           <p className="third-sentence">
             I have a strong passion for web development and design which
-            influences my professional work, as well as my side projects.
+            influences my works, as well as my side projects.
+          </p>
+          <p className="third-sentence">
+            As a junior software engineer I would like to join a team to improve
+            and skills and be a useful member of a company. Please contact me if
+            you you like this page and think that I can be a good fit for your
+            team.
           </p>
         </Typist>
       </div>
-      {/* <Particle /> */}
+      <Particle />
     </div>
   );
 }
