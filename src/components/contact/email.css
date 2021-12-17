@@ -39,5 +39,6 @@ footer > p {
   }
   .email__container {
     width: 85%;
+    margin-bottom: 75px;
   }
 }

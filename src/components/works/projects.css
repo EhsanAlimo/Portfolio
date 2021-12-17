@@ -120,6 +120,7 @@
 @media (max-width: 750px) {
   .project {
     flex-direction: column;
+    margin-top: 10px;
   }
   .project__image {
     width: 100%;

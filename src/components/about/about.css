@@ -16,6 +16,12 @@
   font-weight: bold;
   color: rgb(178, 244, 247);
 }
+.Last_sentence {
+  font-size: larger;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  color: rgb(178, 244, 247);
+}
 .main {
   display: flex;
   justify-content: center;
@@ -48,5 +54,14 @@
   }
   .fists-sentence {
     font-size: x-large;
+  }
+  .about__text {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .image-div {
+    margin-top: 85px;
   }
 }

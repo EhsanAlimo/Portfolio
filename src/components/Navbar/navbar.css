@@ -87,6 +87,7 @@
   }
   .middle__icons {
     flex: 1;
+    margin-left: 5px;
   }
   .navbar {
     height: 80px;
