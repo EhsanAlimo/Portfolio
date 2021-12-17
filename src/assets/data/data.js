@@ -16,7 +16,7 @@ export const projectsData = [
       "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-2.47.51-pm.png",
     techs: "Next.js, Redux, Firebase, Material UI, Tailwind CSS",
     description:
-      "Uniquee is a live social media which allows users to upload their products' image and will be available for everyone with an account. features such as like, category and filtering all the products are outstanding points of this project. Evrytime a user login, he/she can see all the previous likes and do achieve this we used cloud fuctions on react which is connected to the firebase.",
+      "Uniquee is a live social media which allows users to upload their products. features such as like, category and filtering all the products are outstanding points of this project. Evrytime a user login, he/she can see all the previous likes and do achieve this we used cloud fuctions on react which is connected to the firebase.",
     github: "https://github.com/EhsanAlimo/Uniquee",
   },
   {
@@ -26,14 +26,14 @@ export const projectsData = [
       "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-3.25.28-pm.png",
     techs: "Ruby on Rails, HTML5, CSS, Spotify API",
     description:
-      "It was my first full-stack project. This web app is built using Ruby version 2.7.4 and Rails version 5.2.6 and Spotify API. There is an admin authentication so that the user can add, edit and delete songs and playlists. Admin have access to the all users that have signed up to the app and also deleting a existing song. Users authentication and security with both front end and back end to get better understanding of the way they interact with each other.",
+      "It was my first full-stack project. This web app is built using Ruby version 2.7.4 and Rails version 5.2.6 and Spotify API. There is an admin authentication so that the user can add, edit and delete songs and playlists. Users authentication and security with both front end and back end to get better understanding of the way they interact with each other.",
     github: "https://github.com/EhsanAlimo/MusicBox",
   },
   {
     url: "https://ehsanalimo.github.io/Tic-Tac-Toe/",
     name: "Tic Tac Toe",
     image:
-      "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-3.33.38-pm.png",
+      "https://www.linkpicture.com/q/Screen-Shot-2021-12-17-at-12.07.29-pm.png",
     techs: "HTML5, CSS, Jquery",
     description:
       "A simple Tic Tac Toe game which works pretty good and has no bug. I was so proud when I made it. There are two players, reset button, winning line will be highlighted, winner name will be displayed and number of winning hands will be count for each user.",

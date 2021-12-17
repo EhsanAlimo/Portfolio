@@ -17,7 +17,7 @@ function Project({ url, name, image, techs, description, github }) {
       </div>
       <div className="project__description">
         <div className="project__description__title">{name}</div>
-        {/* <div>{description}</div> */}
+        <div>{description}</div>
         <div>
           <div className="tech__label">Technology:</div>
           <div>{techs}</div>

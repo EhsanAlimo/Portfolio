@@ -18,13 +18,15 @@
   box-shadow: rgba(255, 255, 255, 0.288) 0px 4px 12px;
 }
 .project__image {
-  width: 320px;
+  width: 200px;
   height: 200px;
-  border-right: 1px solid white;
+  object-fit: contain;
+  /* border-right: 1px solid white; */
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  border-radius: 2rem;
+  padding-left: 10px;
+  /* border-radius: 1rem; */
 }
 .project__description {
   flex: 1;
@@ -37,6 +39,7 @@
   object-fit: contain;
   width: 100%;
   height: 100%;
+  margin-top: 30px;
 }
 .project__image:hover > img {
   transform: scale(1.05);

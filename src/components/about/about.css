@@ -33,6 +33,12 @@
 .image-div {
   transition: 500ms;
 }
+.about__text {
+  width: 70%;
+  text-align: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
 
 @media (max-width: 500px) {
   .headshot_about {

@@ -4,6 +4,7 @@ import Particle from "./components/Particle";
 import Projects from "./components/works/Projects";
 import { useRef } from "react";
 import Email from "./components/contact/Email";
+import Skills from "./components/skills/Skills";
 
 function App() {
   const projectsRef = useRef(null);
@@ -39,6 +40,7 @@ function App() {
       <About aboutRef={aboutRef} />
       <Projects projectsRef={projectsRef} />
       {/* <Particle /> */}
+      <Skills />
       <Email emailRef={emailRef} />
     </div>
   );
