@@ -61,7 +61,22 @@
     width: 95%;
     margin-bottom: 20px;
   }
+  .about__text > p {
+    font-size: small;
+  }
   .image-div {
     margin-top: 85px;
+  }
+  .fists-sentence {
+    font-size: x-large;
+  }
+  .second-sentence {
+    font-size: 15px;
+  }
+  .third-sentence {
+    font-size: 15px;
+  }
+  .Last_sentence {
+    font-size: 15px;
   }
 }
