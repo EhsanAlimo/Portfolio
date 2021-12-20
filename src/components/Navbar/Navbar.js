@@ -14,7 +14,7 @@ function Navbar({ scrolToWork }) {
 
   const changeBackground = () => {
     // console.log(window.scrollY);
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 40) {
       setNavbar(true);
     } else {
       setNavbar(false);

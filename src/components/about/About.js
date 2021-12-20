@@ -29,11 +29,12 @@ function About({ aboutRef }) {
           <Typist avgTypingDelay={50} cursor={{ hideWhenDone: true }}>
             <p className="fists-sentence">
               {" "}
-              Hello there! My name is Ehsan Alimo from Sydney
+              Hello there! My name is Ehsan Alimo
             </p>
             <p className="second-sentence ">
-              A Full-Stack Web Developer who would love to make this world a
-              better place to live for all living creatures. I have ...
+              A Sydney based Full-Stack Web Developer who would love to make
+              this world a better place to live for all living creatures. I have
+              ...
             </p>
 
             <Typist.Backspace count={11} delay={200} />
