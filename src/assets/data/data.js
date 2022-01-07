@@ -16,7 +16,7 @@ export const projectsData = [
       "https://www.linkpicture.com/q/Screen-Shot-2021-12-15-at-2.47.51-pm.png",
     techs: "Next.js, Redux, Firebase, Material UI, Tailwind CSS",
     description:
-      "Uniquee is a live social media which allows users to upload their products. features such as like, category and filtering all the products are outstanding points of this project. Evrytime a user login, he/she can see all the previous likes and do achieve this we used cloud fuctions on react which is connected to the firebase.",
+      "Uniquee is a live social media which allows users to upload their products. features such as like, category and filtering all the products are outstanding points of this project. Every time a user login, he/she can see all the previous likes and to achieve this we used cloud fuctions on react which is connected to the firebase.",
     github: "https://github.com/EhsanAlimo/Uniquee",
   },
   {
