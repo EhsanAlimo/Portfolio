@@ -36,7 +36,7 @@ export const projectsData = [
       "https://www.linkpicture.com/q/Screen-Shot-2021-12-17-at-12.07.29-pm.png",
     techs: "HTML5, CSS, Jquery",
     description:
-      "A simple Tic Tac Toe game which works pretty good and has no bug. I was so proud when I made it. There are two players, reset button, winning line will be highlighted, winner name will be displayed and number of winning hands will be count for each user.",
+      "A simple Tic Tac Toe game which works pretty well and has no bug. I was so proud when I made it. There are two players, a reset button, the winning line will be highlighted, the winner's name will be displayed and the number of winning hands will be counted for each user.",
     github: "https://github.com/EhsanAlimo/Tic-Tac-Toe",
   },
 ];
