@@ -43,7 +43,7 @@ function About({ aboutRef }) {
               influences my works, as well as my side projects.
             </p>
             <p className="third-sentence">
-              As a web developer I am working for a well known company called SQUIZ and we are developing many government website such as NSW transport and Macquarie University.
+              As a web developer I am working for a well known company called SQUIZ and we are developing many government website such as NSW transport and Macquarie University. and
             </p>
             <p className="Last_sentence">
               Please contact me if you like this page and think that I can be a
