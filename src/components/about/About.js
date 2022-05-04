@@ -43,8 +43,7 @@ function About({ aboutRef }) {
               influences my works, as well as my side projects.
             </p>
             <p className="third-sentence">
-              As a junior software engineer, I would like to join a team to
-              improve skills and be a useful member of a company.
+              As a web developer I am working for a well known company called SQUIZ and we are developing many government website such as NSW transport and Macquarie University.
             </p>
             <p className="Last_sentence">
               Please contact me if you like this page and think that I can be a
